@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-09T17:21:26 IST" name="AmazonSuite" finished-at="2024-10-09T17:21:54 IST" duration-ms="28168">
+  <suite started-at="2024-10-09T21:39:58 IST" name="AmazonSuite" finished-at="2024-10-09T21:40:24 IST" duration-ms="26016">
     <groups>
     </groups>
-    <test started-at="2024-10-09T17:21:26 IST" name="ChromeTest" finished-at="2024-10-09T17:21:49 IST" duration-ms="23730">
+    <test started-at="2024-10-09T21:39:58 IST" name="ChromeTest" finished-at="2024-10-09T21:40:20 IST" duration-ms="22099">
       <class name="com.tutorialninja.testcases.amazon">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.tutorialninja.testcases.amazon@5a45133e]" started-at="2024-10-09T17:21:26 IST" name="browserTest" finished-at="2024-10-09T17:21:49 IST" duration-ms="23596" status="PASS">
+        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.tutorialninja.testcases.amazon@1a482e36]" started-at="2024-10-09T21:39:58 IST" name="browserTest" finished-at="2024-10-09T21:40:20 IST" duration-ms="22007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,24 +20,9 @@
         </test-method> <!-- browserTest -->
       </class> <!-- com.tutorialninja.testcases.amazon -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-10-09T17:21:26 IST" name="FirefoxTest" finished-at="2024-10-09T17:21:52 IST" duration-ms="25947">
+    <test started-at="2024-10-09T21:39:58 IST" name="EdgeTest" finished-at="2024-10-09T21:40:21 IST" duration-ms="23261">
       <class name="com.tutorialninja.testcases.amazon">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.tutorialninja.testcases.amazon@1cf6d1be]" started-at="2024-10-09T17:21:26 IST" name="browserTest" finished-at="2024-10-09T17:21:52 IST" duration-ms="25825" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserTest -->
-      </class> <!-- com.tutorialninja.testcases.amazon -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2024-10-09T17:21:26 IST" name="EdgeTest" finished-at="2024-10-09T17:21:54 IST" duration-ms="28168">
-      <class name="com.tutorialninja.testcases.amazon">
-        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.tutorialninja.testcases.amazon@19e4653c]" started-at="2024-10-09T17:21:26 IST" name="browserTest" finished-at="2024-10-09T17:21:54 IST" duration-ms="28046" status="PASS">
+        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.tutorialninja.testcases.amazon@4c402120]" started-at="2024-10-09T21:39:58 IST" name="browserTest" finished-at="2024-10-09T21:40:21 IST" duration-ms="23175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,5 +35,20 @@
         </test-method> <!-- browserTest -->
       </class> <!-- com.tutorialninja.testcases.amazon -->
     </test> <!-- EdgeTest -->
+    <test started-at="2024-10-09T21:39:58 IST" name="FirefoxTest" finished-at="2024-10-09T21:40:24 IST" duration-ms="26016">
+      <class name="com.tutorialninja.testcases.amazon">
+        <test-method signature="browserTest(java.lang.String)[pri:0, instance:com.tutorialninja.testcases.amazon@22ff4249]" started-at="2024-10-09T21:39:58 IST" name="browserTest" finished-at="2024-10-09T21:40:24 IST" duration-ms="25933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTest -->
+      </class> <!-- com.tutorialninja.testcases.amazon -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- AmazonSuite -->
 </testng-results>

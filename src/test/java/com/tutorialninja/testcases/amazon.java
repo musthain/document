@@ -14,7 +14,8 @@ import org.testng.annotations.Test;
 public class amazon {
 	 WebDriver driver;
 
-	    @Parameters({"bname"})
+	    @SuppressWarnings("deprecation")
+		@Parameters({"bname"})
 	    @Test
 	    public void browserTest(String bname) throws MalformedURLException, InterruptedException
 	    {
